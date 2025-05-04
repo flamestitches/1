@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  toontown:
+    build: .
+    container_name: toontown_server
+    ports:
+      - "7199:7199"
+    volumes:
+      - .:/app
+    restart: unless-stopped

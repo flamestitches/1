@@ -1,0 +1,6 @@
+messagedirector:
+  connect: 127.0.0.1:7199
+uberdog:
+  connect: 127.0.0.1:6666
+ai:
+  connect: 127.0.0.1:4000
